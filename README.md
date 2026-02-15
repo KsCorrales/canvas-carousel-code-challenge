@@ -13,8 +13,8 @@ A horizontal drag-to-slide image slider rendered entirely on a single `<canvas>`
 - "Drag to change image" hint text under the carousel
 
 ## Run
-- No build step required — runs from a static file server
-- Serve the project root with any static file server:
+- No build step required — the project root **is** the built release
+- Serve it with any static file server:
 
 ```bash
 npx nws
