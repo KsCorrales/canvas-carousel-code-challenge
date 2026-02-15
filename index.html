@@ -26,11 +26,19 @@
       cursor: grab;
     }
     canvas:active { cursor: grabbing; }
+    .slider-hint {
+      text-align: center;
+      color: #888;
+      font-family: sans-serif;
+      font-size: 14px;
+      margin-top: 12px;
+    }
   </style>
 </head>
 <body>
   <div class="slider-container">
     <canvas id="slider"></canvas>
+    <p class="slider-hint">Drag to change image</p>
   </div>
   <script type="module" src="./src/main.js"></script>
 </body>
